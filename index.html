@@ -23,7 +23,7 @@ body {
         }
 
         .navbar .title h1, .navbar .title h2 {
-            color: white;
+            color: black;
         }
 
         .navbar .title h1 {
@@ -53,7 +53,7 @@ body {
         }
 
         .container1 {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(102, 101, 101);
     padding: 50px;
     border-radius: 10px;
     width: 80%; /* Adjust width as needed */
@@ -69,8 +69,16 @@ body {
             justify-content: space-around;
             margin-top: 20px;
             flex-wrap: wrap;
+            position: static;
+            
            
         }
+        @media (max-width: 768px) {
+    .images img {
+        max-width: 50px; /* Make videos take full width on smaller screens */
+        height: 20px;
+    }
+}
 
         .images img {
             margin: 10px;
@@ -90,15 +98,22 @@ body {
             list-style: none;
             padding: 0;
             text-align: center;
+            position: static;
         }
 
         .tabs li {
             display: inline;
             margin: 0 10px;
         }
+        @media (max-width: 768px) {
+    .tabs li {
+        font-size: 0.5rem; 
+       
+    }
+}
 
         .tabs a {
-            color: white;
+            color: black;
             text-decoration: none;
             font-size: 1.2em;
         }
@@ -108,7 +123,7 @@ body {
         }
 
         .social-links a {
-            color: white;
+            color: black;
             text-decoration: none;
             font-size: 2em;
             margin: 0 10px;
@@ -159,7 +174,7 @@ body {
 
         .flip-card-back {
             background: linear-gradient(to right, #1e3c72, #2a5298);
-            color: white;
+            
             display: flex;
             align-items: center;
             justify-content: center;
@@ -193,7 +208,7 @@ body {
         .curriculum-section {
             padding: 50px 0;
             background: linear-gradient(to right, #1e3c72, #2a5298);
-            color: white;
+            color: black;
         }
 
         .curriculum-title {
@@ -213,7 +228,7 @@ body {
         }
 
         .card-text {
-            background-color: white;
+            background-color: rgb(217, 246, 248);
         }
 
         .game-container {
@@ -443,13 +458,13 @@ body {
 
 @media (max-width: 768px) {
     .title h1 {
-        font-size: 1.5rem; /* Adjust font size for h1 on small screens */
+        font-size: 1.0rem; /* Adjust font size for h1 on small screens */
         margin-top: 10px;
         margin-left: -60px;
     }
     
     .title h2 {
-        font-size: 1.0rem; /* Adjust font size for h2 on small screens */
+        font-size: 0.5rem; /* Adjust font size for h2 on small screens */
         margin-left: -60px;
         margin-top: -10px;
        
@@ -488,7 +503,7 @@ body {
 .short-text {
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+
 }
 
 .full-text {
@@ -542,7 +557,7 @@ body {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f2f2f2;
+    background-color: #0ba8066e;
 }
 
 .container {
@@ -598,8 +613,8 @@ body {
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #080000e2;">
-            <div class="container-fluid px-3 d-flex align-items-center justify-content-between" style="background-color: rgba(4, 208, 116, 0.585); border-radius: 40px;">
+        <nav class="navbar navbar-expand-lg" style="background-color: #06298b;">
+            <div class="container-fluid px-3 d-flex align-items-center justify-content-between" style="background-color: rgb(10, 231, 65); border-radius: 40px;">
                
                     <a class="navbar-brand" href="#">
                         <img src="images/logo.png" alt="Blue Jay School Logo" style="height: 200px;">
@@ -614,25 +629,25 @@ body {
                 <div class="collapse navbar-collapse" id="navbarNav" >
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#" style="color: white; background-color: rgba(4, 208, 116, 0.585); border-top-left-radius: 20px;border-top-right-radius: 20px; padding-left:20px;" >Home</a>
+                            <a class="nav-link" href="#" style="color: black; background-color: white; border-top-left-radius: 20px;border-top-right-radius: 20px; padding-left:20px;" >Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about" style="color: white;background-color: rgba(4, 208, 116, 0.585);padding-left:20px;">About</a>
+                            <a class="nav-link" href="#about" style="color: black;background-color: white;padding-left:20px;">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#curriculum" style="color: white;background-color: rgba(4, 208, 116, 0.585);padding-left: 20px;">Curriculum</a>
+                            <a class="nav-link" href="#curriculum" style="color: black;background-color: white;padding-left: 20px;">Curriculum</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#gallery" style="color: white;background-color: rgba(4, 208, 116, 0.585);padding-left:20px; ">Gallery</a>
+                            <a class="nav-link" href="#gallery" style="color: black;background-color: white;padding-left:20px; ">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#videos" style="color: white;background-color: rgba(4, 208, 116, 0.585);padding-left:20px;">Videos</a>
+                            <a class="nav-link" href="#videos" style="color: black;background-color: white;padding-left:20px;">Videos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact" style="color: white;background-color: rgba(4, 208, 116, 0.585);padding-left:20px;">Contact</a>
+                            <a class="nav-link" href="#contact" style="color: black;background-color: white;padding-left:20px;">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sign-up" style="color: rgb(255, 226, 6);background-color: rgba(4, 208, 116, 0.585);border-bottom-left-radius:20px; border-bottom-right-radius: 20px; padding-left:20px;">Sign Up</a>
+                            <a class="nav-link" href="#sign-up" style="color: rgb(47, 0, 255);background-color: white;border-bottom-left-radius:20px; border-bottom-right-radius: 20px; padding-left:20px;">Sign Up</a>
                         </li>
                     </ul>
                 </div>
@@ -645,7 +660,7 @@ body {
        
         <div class="container1" style="right: 5%;">
             <div class="welcome" style="margin-left: 10%;">
-                <h1>Welcome to Our Services</h1>
+                <h1 style="color:#f8f9fa;"><b>Welcome to Our Services</b></h1>
                 
             </div>
             <ul class="tabs">
@@ -667,6 +682,7 @@ body {
         
         <section id="about" class="about-contanier">
             <!-- Fun About section -->
+         
 <div class="about-contanier">
     <div class="row">
         <div class="col-lg-6">
@@ -683,7 +699,7 @@ body {
         </div>
     </div>
 </div>
-<div class="flip-card-container">
+<div class="flip-card-container" style="background-color: rgba(24, 4, 117, 0.938);">
     <div class="row">
         <div class="col-md-4">
             <div class="flip-card">
@@ -692,7 +708,7 @@ body {
                         <img src="images/background1.jpg" alt="Image 1">
                     </div>
                     <div class="flip-card-back">
-                        <h2>Career Day Excitement
+                        <h2 style="color: white;">Career Day Excitement
                             One of our most cherished events at Blue Jay Primary School is Career Day. Captured in a delightful flip, a student is shown proudly dressed up as a scientist, complete with a lab coat and safety goggles. This image perfectly embodies the spirit of Career Day, where students are encouraged to explore their aspirations by dressing up as professionals from various fields. From astronauts and engineers to artists and chefs, our students get a chance to envision themselves in different roles. This day not only ignites their imagination but also provides them with a sense of direction and excitement about their future possibilities.</h2>
                     </div>
                 </div>
@@ -705,7 +721,7 @@ body {
                         <img src="images/gallery 4.jpg" alt="Image 2">
                     </div>
                     <div class="flip-card-back">
-                        <h2>School Uniform Pride
+                        <h2 style="color: white;">School Uniform Pride
                             In another engaging flip, we see a student confidently wearing the Blue Jay Primary School uniform. Our uniform symbolizes unity, equality, and a sense of belonging among our students. It eliminates any social barriers and allows our children to focus on their education and personal growth. Wearing the uniform fosters a sense of pride and responsibility, reminding students that they are part of a supportive and nurturing community. It helps instill discipline and a sense of identity, which are integral parts of our school's values and ethos.</h2>
                     </div>
                 </div>
@@ -718,7 +734,7 @@ body {
                         <img src="images/gallery 3.jpg" style="object-fit: cover;" alt="Image 3">
                     </div>
                     <div class="flip-card-back">
-                        <h2>The Joy of Learning
+                        <h2 style="color: white;">The Joy of Learning
                             The third flip captures a student engrossed in writing, a testament to the engaging and dynamic learning environment at Blue Jay Primary School. Whether it's crafting stories in language arts, solving problems in math, or exploring scientific concepts, our students are encouraged to express their thoughts and ideas creatively. This flip highlights the dedication and enthusiasm our students bring to their studies. With the guidance of our passionate teachers, students develop essential skills such as critical thinking, creativity, and effective communication. This commitment to active learning ensures that our students are well-prepared for their academic journey and beyond.</h2>
                     </div>
                 </div>
@@ -861,11 +877,7 @@ body {
 </div>
 
 
-        <section id="videos" class="video-section">
-            <div class="video-container">
-                <!-- Videos content goes here -->
-            </div>
-        </section>
+      
        <!-- Contact Section -->
 <section id="contact" class="py-5">
     <div class="container">
